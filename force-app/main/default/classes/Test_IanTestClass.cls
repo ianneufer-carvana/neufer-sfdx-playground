@@ -11,7 +11,7 @@ private class Test_IanTestClass {
 
     static testMethod void subtractIntsTest() {
         Test.startTest();
-        Integer result = IanTestClass.addInts(1,3);
+        Integer result = IanTestClass.subtractInts(1,3);
         Test.stopTest();
 
         System.assertEquals(-2, result);
